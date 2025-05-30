@@ -1,51 +1,51 @@
 # LangChain & integrations (compatible with Pydantic 2.x)
-langchain==0.3.25
-langchain-community==0.3.24
-langchain-core==0.3.62
-langchain-huggingface==0.1.2
-langchain-text-splitters==0.3.8
+langchain
+langchain-community
+langchain-core
+langchain-huggingface
+langchain-text-splitters
 
 # Streamlit
-streamlit==1.45.1
+streamlit
 
 # Embeddings & vector stores
-sentence-transformers==2.6.1
-faiss-cpu==1.11.0
+sentence-transformers
+faiss-cpu
 
 # HuggingFace & Transformers
-transformers==4.39.3
-huggingface-hub>=0.23.0
-torch==2.7.0
-torchaudio==2.7.0
-torchvision==0.22.0
-safetensors==0.4.2
+transformers
+huggingface-hub
+torch
+torchaudio
+torchvision
+safetensors
 
 # Document loaders
-pypdf==5.5.0
-docx2txt==0.8
-python-docx==0.8.11
+pypdf
+docx2txt
+python-docx
 
 # Environment handling
-python-dotenv==1.1.0
+python-dotenv
 
-# Serialization and config - Updated to compatible version
-pydantic>=2.7.4,<3.0.0
-pydantic-core>=2.18.0
-pydantic-settings>=2.2.1
+# Serialization and config
+pydantic
+pydantic-core
+pydantic-settings
 
 # Utilities
-numpy==2.0.1
-pandas==2.2.3
-scikit-learn==1.6.1
-scipy==1.15.3
-regex==2023.12.25
-tqdm==4.66.2
-orjson==3.10.3
+numpy
+pandas
+scikit-learn
+scipy
+regex
+tqdm
+orjson
 
 # Optional: Monitoring and debugging
-tenacity==8.3.0
-watchdog==6.0.0
+tenacity
+watchdog
 
 # Typing support
-typing-inspect==0.9.0
-typing_extensions==4.11.0
+typing-inspect
+typing_extensions
